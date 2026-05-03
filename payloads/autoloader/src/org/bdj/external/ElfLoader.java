@@ -60,7 +60,7 @@ public class ElfLoader {
     private static long kdata_base;
     private static long kq_fdp;
     
-    private static String embed_elf_path = "/org/bdj/external/elfldr_1320.elf";
+    private static String embed_elf_path = "/org/bdj/external/elfldr.elf";
     
     static {
         try {
