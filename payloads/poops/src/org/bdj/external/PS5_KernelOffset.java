@@ -25,6 +25,7 @@ public class PS5_KernelOffset {
         KernelOffsets = new Hashtable();
         
         // ALLPROC, SECURITY_FLAGS, ROOTVNODE, KERNEL_PMAP_STORE, GVMSPACE
+        addFirmwareOffsets("5.xx", 0x291DD00, 0x66466EC, 0x6853510, 0x3398A88, 0x6603FB0);
         addFirmwareOffsets("6.xx", 0x2869D20, 0x65968EC, 0x679F510, 0x32E4358, 0x65540F0);
         addFirmwareOffsets("7.xx", 0x2859D50, 0xAC8064, 0x30C7510, 0x2E2C848, 0x2E76090);
         addFirmwareOffsets("8.xx", 0x2875D50, 0xAC3064, 0x30FB510, 0x2E48848, 0x2EAA090);
